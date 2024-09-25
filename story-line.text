@@ -1,0 +1,32 @@
+Start: The year is 12,067 GE. The Galactic Empire is crumbling, and chaos threatens the galaxy. As a member of the Psychohistorical Society on Terminus, you must guide humanity through the collapse. As captain of the SS Odyssey, your decisions will shape the future.
+  ├── Branch 1: Initial Crisis
+  │     ├── Choice 1: Investigate communication blackout
+  │     │     ├── Narrative: You decide to investigate the sudden communication blackout. Your ship approaches the damaged relay station, where you notice signs of a recent battle. Sensors pick up faint distress signals from a nearby escape pod.
+  │     │     ├── Branch 2: Uncovering Secrets
+  │     │     │     ├── Choice 1: Decode Dr. Seldon's message
+  │     │     │     │     ├── Narrative: You turn your attention to a mysterious message from Dr. Hari Seldon. The encoded message could hold the key to humanity's survival. You begin decoding it, feeling the weight of his genius.
+  │     │     │     │     └── Ending 1: Discover hidden plan for Second Foundation
+  │     │     │     │           ├── Narrative: You uncover a hidden plan to establish a Second Foundation. This ensures hope for a brighter future. Your discovery is hailed as a monumental achievement.
+  │     │     │     ├── Choice 2: Explore ancient vault
+  │     │     │     │     ├── Narrative: Your investigation leads you to an ancient vault on Terminus. The vault is filled with advanced technology and ancient texts. The secrets within could be your salvation or your doom.
+  │     │     │     │     └── Ending 2: Find advanced technology to repel invaders
+  │     │     │     │           ├── Narrative: You discover advanced technology that helps repel the invaders. Terminus is saved, and you are honored for your bravery. The technology paves the way for a new era of progress.
+  │     │     │     ├── Choice 3: Form alliance with neighboring star system
+  │     │     │           ├── Narrative: You decide to reach out to a neighboring star system, hoping to form a strong alliance. The neighboring system holds potential allies, but also potential threats. Your diplomatic skills will be put to the test.
+  │     │     │           └── Ending 3: New era of cooperation and peace
+  │     │     │                 ├── Narrative: You form a strong alliance, leading to a new era of peace and prosperity. Your leadership is recognized as the cornerstone of this new alliance. The galaxy begins to rebuild and thrive.
+  │     ├── Choice 2: Strengthen defenses of Terminus
+  │           ├── Narrative: You focus on strengthening the defenses of Terminus. A scout ship returns with news of an incoming fleet. You must make strategic decisions to ensure safety.
+  │           └── Branch 3: Facing the Threat
+  │                 ├── Choice 1: Negotiate with warlord
+  │                 │     ├── Narrative: You negotiate with a powerful warlord threatening Terminus. Your wit and diplomacy are crucial to avoid bloodshed. The stakes are high, and failure is not an option.
+  │                 │     └── Ending 1: Discover hidden plan for Second Foundation
+  │                 │           ├── Narrative: You uncover a hidden plan to establish a Second Foundation. This ensures hope for a brighter future. Your discovery is hailed as a monumental achievement.
+  │                 ├── Choice 2: Sabotage enemy fleet
+  │                 │     ├── Narrative: The enemy fleet looms on the horizon, intent on your destruction. A covert mission to sabotage their ships is your best chance for survival. The risks are high, but success could turn the tide.
+  │                 │     └── Ending 2: Find advanced technology to repel invaders
+  │                 │           ├── Narrative: You discover advanced technology that helps repel the invaders. Terminus is saved, and you are honored for your bravery. The technology paves the way for a new era of progress.
+  │                 ├── Choice 3: Rally citizens to resist
+  │                       ├── Narrative: The people of Terminus look to you for leadership. The threat of invasion looms large, but you will not go quietly. You must inspire and rally the citizens to resist.
+  │                       └── Ending 3: New era of cooperation and peace
+  │                             ├── Narrative: You form a strong alliance, leading to a new era of peace and prosperity. Your leadership is recognized as the cornerstone of this new alliance. The galaxy begins to rebuild and thrive.
