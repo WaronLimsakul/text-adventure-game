@@ -20,54 +20,74 @@ std::string branch3_1 = "You negotiate with a powerful warlord threatening Termi
 std::string branch3_2 = "The enemy fleet looms on the horizon, intent on your destruction. A covert mission to sabotage their ships is your best chance for survival. The risks are high, but success could turn the tide.";
 std::string branch3_3 = "The people of Terminus look to you for leadership. The threat of invasion looms large, but you will not go quietly. You must inspire and rally the citizens to resist.";
 
-
-
-
-
-
-
-int decide(std::string situation, std::string choices, int num_choices) {
+int decide(std::string situation, std::string choices, int num_choices)
+{
     std::cout << situation << "\n";
     bool choice_made = false;
     int decision;
-    while (!choice_made) {
-        std::cout << question << "\n" << choices << "\n";
+    while (!choice_made)
+    {
+        std::cout << question << "\n"
+                  << choices << "\n";
         std::cin >> decision;
-        if ( decision  <= num_choices) {
+        if (decision <= num_choices)
+        {
             choice_made = true;
             return decision;
-        } else {
+        }
+        else
+        {
             std::cout << "invalid answer, try again." << "\n";
         }
     }
 };
 
-int main() {
-    std::cout << beginning << "\n";
+int main()
+{
+    std::cout << beginning << "\n\n";
     int decision_1 = decide(branch_1, choices_1, 2);
     int decision_2;
-    if (decision_1 == 1) {
+    if (decision_1 == 1)
+    {
         // branch 2
-        std::cout << branch1_1 << "\n";
-        decision_2 = decide (branch_2, choices_2, 3);
-        if (decision_2 == 1) {
-
-        } else if (decision_2 == 2) {
-
-        } else {
-
+        std::cout << branch1_1 << "\n\n";
+        decision_2 = decide(branch_2, choices_2, 3);
+        if (decision_2 == 1)
+        {
+            std::cout << branch2_1 << "\n\n";
+            std::cout << ending1 << "\n";
         }
-    } else {
+        else if (decision_2 == 2)
+        {
+            std::cout << branch2_2 << "\n\n";
+            std::cout << ending2 << "\n";
+        }
+        else
+        {
+            std::cout << branch2_3 << "\n\n";
+            std::cout << ending3 << "\n";
+        }
+    }
+    else
+    {
         // decision_1 = 2
         // go to branch 3
-        std::cout << branch1_2 << "\n";
+        std::cout << branch1_2 << "\n\n";
         decision_2 = decide(branch_3, choices_3, 3);
-        if (decision_2 == 1) {
-
-        } else if (decision_2 == 2) {
-
-        } else {
-
+        if (decision_2 == 1)
+        {
+            std::cout << branch3_1 << "\n\n";
+            std::cout << ending1 << "\n";
+        }
+        else if (decision_2 == 2)
+        {
+            std::cout << branch3_2 << "\n\n";
+            std::cout << ending2 << "\n";
+        }
+        else
+        {
+            std::cout << branch3_3 << "\n\n";
+            std::cout << ending3 << "\n";
         }
     };
     return 0;
